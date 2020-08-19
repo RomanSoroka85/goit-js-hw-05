@@ -4,8 +4,6 @@ class Storage {
   }
   getItems() {
     return this.items;
-    const items = storage.getItem();
-    constructor.table(items);
   }
 
   addItem(item) {
