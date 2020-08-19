@@ -2,7 +2,10 @@ class Storage {
   constructor(array) {
     this.items = array;
   }
-  getItems() {}
+  getItems() {
+    return console.log(storage);
+  }
+
   addItem(item) {
     this.items.push(item);
   }
